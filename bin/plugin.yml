@@ -1,0 +1,10 @@
+name: MyiuLib
+version: 0.0.1-dev
+main: me.myiume.myiulib.MyiuLib
+description: A library designed for Myiume's Minigames.
+author: [Myiume, Maxim Roncacé]
+
+commands:
+  myiulib:
+    description: The primary command for the library.
+    usage: /myiulib

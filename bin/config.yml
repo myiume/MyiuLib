@@ -1,0 +1,34 @@
+# ####################### #
+# # MyiuLib Configuration # 
+# ####################### #
+
+# When true, MyiuLib will save block changes in arenas to disk in real time.
+# When false, block change data is saved only to memory.
+# If you set this to false, you may see a slight performance increase, but if the server crashes or is uncleanly
+# shut down (e.g. hitting the "X" button), block change data for active rounds *will be lost*.
+# We highly recommend you leave this at its default value (true).
+rollback-logging: true
+
+# Defines the level at which MyiuLib and plugins hooking it (if compliant) will log.
+# Each level includes messages logged at it as well as at lower levels. Therefore, higher levels typically means more messages.
+# SEVERE will log only exceptions and other severe messages. This is not recommended under any circumstances.
+# WARNING will log recoverable errors and warnings. This is not recommended, but may be safely used to reduce log density.
+# INFO will log status messages and other non-important informational messages. This is recommended for most users.
+# DEBUG will log messages intended for debugging purposes only. This is recommended for developers troubleshooting their own plugin.
+# VERBOSE will log any messages not contained by the above categories, no matter how insignificant. This is not recommended for anyone unless they know exactly what they're getting themselves into.
+logging-level: INFO
+
+# When true, MyiuLib will never use Minecraft's vanilla spectator mode.
+# This toggle has been added in case problems arise due to its in-advance implementation.
+disable-vanilla-spectating: false
+
+# Should MyiuLib silently download and install updates when available?
+# We highly recommend you set this to true so you may run plugins using new API features.
+enable-updater: true
+
+# Should MyiuLib submit anonymous statistics to MCStats? (Set to false if you're paranoid.)
+enable-metrics: true
+
+# What locale should MyiuLib's messages use?
+# This will default to enUS if the locale is undefined, and for messages which are not defined within the locale.
+locale: enUS
