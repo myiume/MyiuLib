@@ -20,7 +20,6 @@ import java.util.concurrent.Callable;
 /**
  * Utility class for use with Mojang's UUID API.
  *
- * <p>This class has been modified from the original for use with MyiuLib.</p>
  *
  * @author evilmidget38
  */
